@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Personal-CV/static/css/main.94dea009.css",
+    "main.js": "/Personal-CV/static/js/main.96712487.js",
+    "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
+    "static/media/todo.png": "/Personal-CV/static/media/todo.23851391634f97d96954.png",
+    "index.html": "/Personal-CV/index.html",
+    "main.94dea009.css.map": "/Personal-CV/static/css/main.94dea009.css.map",
+    "main.96712487.js.map": "/Personal-CV/static/js/main.96712487.js.map",
+    "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94dea009.css",
+    "static/js/main.96712487.js"
+  ]
+}
