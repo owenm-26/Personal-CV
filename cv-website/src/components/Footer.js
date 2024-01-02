@@ -12,7 +12,7 @@ function Footer() {
             <a href="https://github.com/owenm-26"><GithubIcon/></a>
             <a href="https://www.linkedin.com/in/owen-mariani/"><LinkedInIcon /></a>
         </div>
-        <p> &copy; 2024 owenmariani.com</p>
+        <p> &copy; 2024 owenm-26.github.io</p>
     </div>
   )
 }
