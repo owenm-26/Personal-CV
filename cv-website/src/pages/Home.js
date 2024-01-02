@@ -8,12 +8,12 @@ function Home() {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, my name is Owen</h2>
+        <h2>Owen Mariani</h2>
         <div className='prompt'>
           <p>A second year at Boston University passionate about Software Engineering and learning.</p>
-          <EmailIcon/>
-          <LinkedInIcon/>
-          <GithubIcon/>
+          <a href="mailto: mariani.owen@gmail.com"><EmailIcon/></a>
+          <a href ="https://www.linkedin.com/in/owen-mariani/"><LinkedInIcon/></a>
+          <a href="https://github.com/owenm-26"><GithubIcon/></a>
         </div>
       </div>
       <div className='skills'>
