@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='Personal-CV/home' element={<Home />}/>
+          <Route path='Personal-CV/' element={<Home />}/>
           <Route path='Personal-CV/projects' element={<Projects />}/>
           <Route path='Personal-CV/project/:id' element={<ProjectDisplay/>}/>
           <Route path='Personal-CV/experience' element={<Experience />}/>
