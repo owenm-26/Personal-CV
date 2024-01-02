@@ -21,7 +21,7 @@ function Home() {
          <ol className='list'>
           <li className='item'>
             <h2>Programming Languages</h2>
-            <span> Python, Java, SQL, PySpark, C, Vim, Assembly, React.js, Node.js, HTML, CSS, JavaScript </span>
+            <span> Python, Java, JavaScript, React.js, SQL, PySpark, C, Vim, Assembly,  Node.js, HTML, CSS </span>
           </li>
           <li className='item'>
             <h2>Tools and Applications</h2>
