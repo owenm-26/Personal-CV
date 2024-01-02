@@ -8,9 +8,9 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='socialMedia'>
-            <InstagramIcon />
-            <GithubIcon/>
-            <LinkedInIcon />
+            <a href= "https://www.instagram.com/owen_mariani?igsh=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"><InstagramIcon /></a>
+            <a href="https://github.com/owenm-26"><GithubIcon/></a>
+            <a href="https://www.linkedin.com/in/owen-mariani/"><LinkedInIcon /></a>
         </div>
         <p> &copy; 2024 owenmariani.com</p>
     </div>
