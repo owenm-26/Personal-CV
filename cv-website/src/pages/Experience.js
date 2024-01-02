@@ -68,6 +68,17 @@ function Experience() {
           <p>Lead and organized 10 developers in creating curriculums, projects, and interactive lesson plans of frontend and backend frameworks to 40+ club members on a weekly basis</p>
         </VerticalTimelineElement>
 
+        <VerticalTimelineElement 
+        className='vertical-timeline-element--work' 
+        date='January 2023 - Current'
+        iconStyle={{background: "#D64550", color: "#ffffff"}}
+        icon={<GroupsIcon/>}
+        >
+          <h3 className='vertical-timeline-element-title'>Senior Advisor - PMReady</h3>
+          <h4 className='vertical-timeline-element-subtitle'>Boston University</h4>
+          <p>Drove club membership from 0 to 30 by organizing professional events and presenting training coursework weekly for the role of Product Manager, covering the Product Life Cycle and Figma</p>
+        </VerticalTimelineElement>
+
       </VerticalTimeline>
       </div>
   )
