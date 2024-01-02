@@ -22,7 +22,7 @@
             </button>
         </div>
         <div className = 'links'>
-            <Link to="Personal-CV/home">Home</Link>
+            <Link to="Personal-CV/home">Home WEEEE</Link>
             <Link to="Personal-CV/projects">Projects</Link>
             <Link to="Personal-CV/experience">Experience</Link>
         </div>
