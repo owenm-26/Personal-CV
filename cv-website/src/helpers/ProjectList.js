@@ -4,8 +4,15 @@ import CurrencyConverter from '../assets/currency-converter.png';
 import TicTacToe from '../assets/tictactoe.png'
 import CSVCalculator from '../assets/csv-calculator.png'
 import AtScale from '../assets/atscale.png'
+import HumphreyFellows from '../assets/humphrey-fellows.png'
 
 export const ProjectList = [
+    {
+        name: 'BusinessBuddy',
+        image: HumphreyFellows,
+        skills: 'React.js, MongoDB, Express, Excel',
+        url: "https://github.com/owenm-26/humphrey-fellowship-capstone"
+    },
     {
         name: "AtScale Summer 2023",
         image: AtScale,
@@ -35,5 +42,6 @@ export const ProjectList = [
         image: CSVCalculator,
         skills: 'Python, command line',
         url: "https://github.com/owenm-26/csv-calculator"
-    }
+    },
+    
 ]
