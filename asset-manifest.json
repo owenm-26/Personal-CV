@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Personal-CV/static/css/main.6a6dd191.css",
-    "main.js": "/Personal-CV/static/js/main.e210e49f.js",
+    "main.css": "/Personal-CV/static/css/main.92b95384.css",
+    "main.js": "/Personal-CV/static/js/main.bbc7dde0.js",
     "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
     "static/media/currency-converter.png": "/Personal-CV/static/media/currency-converter.7adbc22358d013cf736a.png",
     "static/media/atscale.png": "/Personal-CV/static/media/atscale.9cfef38f429aa55a3039.png",
     "static/media/csv-calculator.png": "/Personal-CV/static/media/csv-calculator.68a90e5563316a9a7e61.png",
     "static/media/tictactoe.png": "/Personal-CV/static/media/tictactoe.81c886ae696f6fd6dc21.png",
+    "static/media/humphrey-fellows.png": "/Personal-CV/static/media/humphrey-fellows.8b2775b10a57865cd4f2.png",
     "static/media/todo.png": "/Personal-CV/static/media/todo.23851391634f97d96954.png",
     "index.html": "/Personal-CV/index.html",
-    "main.6a6dd191.css.map": "/Personal-CV/static/css/main.6a6dd191.css.map",
-    "main.e210e49f.js.map": "/Personal-CV/static/js/main.e210e49f.js.map",
+    "main.92b95384.css.map": "/Personal-CV/static/css/main.92b95384.css.map",
+    "main.bbc7dde0.js.map": "/Personal-CV/static/js/main.bbc7dde0.js.map",
     "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a6dd191.css",
-    "static/js/main.e210e49f.js"
+    "static/css/main.92b95384.css",
+    "static/js/main.bbc7dde0.js"
   ]
 }
