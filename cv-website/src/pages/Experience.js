@@ -52,9 +52,9 @@ function Experience() {
         iconStyle={{background: "#D64550", color: "#ffffff"}}
         icon={<GroupsIcon/>}
         >
-          <h3 className='vertical-timeline-element-title'>Program Manager - Spark!</h3>
-          <h4 className='vertical-timeline-element-subtitle'>Boston University</h4>
-          <p>Managed $35k+ budget and assisted discussion on distributing to bolster BU computer science organizations</p>
+          <h3 className='vertical-timeline-element-title'>Program Manager</h3>
+          <h4 className='vertical-timeline-element-subtitle'>BU Spark!</h4>
+          <p>Managed $35k+ budget and assisted discussion on distributing to bolster BU computer science organizations, leading to a 68% increase in council size</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -77,6 +77,17 @@ function Experience() {
           <h3 className='vertical-timeline-element-title'>Senior Advisor - PMReady</h3>
           <h4 className='vertical-timeline-element-subtitle'>Boston University</h4>
           <p>Drove club membership from 0 to 30 by organizing professional events and presenting training coursework weekly for the role of Product Manager, covering the Product Life Cycle and Figma</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+        className='vertical-timeline-element--work' 
+        date='May 2024 - June 2024'
+        iconStyle={{background: "#D64550", color: "#ffffff"}}
+        icon={<GroupsIcon/>}
+        >
+          <h3 className='vertical-timeline-element-title'>Software Engineer Intern</h3>
+          <h4 className='vertical-timeline-element-subtitle'>BU Spark!</h4>
+          <p>To be determined...</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
