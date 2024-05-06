@@ -83,7 +83,7 @@ function Experience() {
         className='vertical-timeline-element--work' 
         date='May 2024 - June 2024'
         iconStyle={{background: "#D64550", color: "#ffffff"}}
-        icon={<GroupsIcon/>}
+        icon={<WorkIcon/>}
         >
           <h3 className='vertical-timeline-element-title'>Software Engineer Intern</h3>
           <h4 className='vertical-timeline-element-subtitle'>BU Spark!</h4>
