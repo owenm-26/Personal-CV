@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='Personal-CV/' element={<Home />}/>
-          <Route path='Personal-CV/projects' element={<Projects />}/>
+          <Route path='/' element={<Home />}/>
+          <Route path='/projects' element={<Projects />}/>
           <Route path='project/:id' element={<ProjectDisplay/>}/>
-          <Route path='Personal-CV/experience' element={<Experience />}/>
+          <Route path='/experience' element={<Experience />}/>
         </Routes>
         <Footer/>
       </Router>
