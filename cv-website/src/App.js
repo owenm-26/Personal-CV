@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Home />}/>
-          <Route path='/projects' element={<Projects />}/>
+          <Route path='Personal-CV/' element={<Home />}/>
+          <Route path='Personal-CV/projects' element={<Projects />}/>
           <Route path='project/:id' element={<ProjectDisplay/>}/>
-          <Route path='/experience' element={<Experience />}/>
+          <Route path='Personal-CV/experience' element={<Experience />}/>
         </Routes>
         <Footer/>
       </Router>
