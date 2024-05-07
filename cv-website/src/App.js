@@ -18,6 +18,7 @@ function App() {
           <Route path='project/:id' element={<ProjectDisplay/>}/>
           <Route path='/experience' element={<Experience />}/>
         </Routes>
+        <div className='push'></div>
         <Footer/>
       </Router>
     </div>
