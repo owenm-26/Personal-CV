@@ -22,9 +22,9 @@
             </button>
         </div>
         <div className = 'links'>
-            <Link to="Personal-CV/">Home</Link>
-            <Link to="Personal-CV/projects">Projects</Link>
-            <Link to="Personal-CV/experience">Experience</Link>
+            <Link to="/">Home</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/experience">Experience</Link>
         </div>
      </div>
    )
