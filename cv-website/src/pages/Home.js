@@ -3,6 +3,8 @@ import EmailIcon from "@mui/icons-material/Email";
 import GithubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../styles/Home.css";
+import ToolsList from '../helpers/ToolsList';
+import LanguagesList from '../helpers/LanguagesList';
 
 function Home() {
   return (
@@ -21,12 +23,26 @@ function Home() {
          <ol className='list'>
           <li className='item'>
             <h2>Programming Languages</h2>
-            <span> Python, Java, JavaScript, React.js, SQL, PySpark, C, Vim, Assembly,  Node.js, HTML, CSS </span>
+            <LanguagesList/>
+            <span> Python, Java, JavaScript, React.js, Next.js, Git, SQL, PySpark, C, Vim, Assembly,  Node.js, HTML, CSS </span>
           </li>
+
           <li className='item'>
             <h2>Tools and Applications</h2>
-            <span> Kubernetes, Docker, JupyterLab, Databricks, Snowflake, Google Bigquery, Firebase, MongoDB, Figma, Unity, VSCode, IntelliJ, Confluence, Google Suite </span>
+           <ToolsList/>
+            <span> Kubernetes, Docker, Podman, JupyterLab, Databricks, Snowflake, JIRA, Github, Google Bigquery, Firebase, MongoDB, Figma, Unity, VSCode, IntelliJ, Confluence, Google Suite </span>
           </li>
+
+          <li className='item'>
+            <h2>Topics</h2>
+            <span> Databases, Application Architecture, Authentication & Authorization, Environment Secrets, UI Libraries, HTTP Protocols, Image Encoding, Tree Traversals, Sorting</span>
+          </li>
+
+          <li className='item'>
+            <h2>Classes</h2>
+            <span>Python, Data Structures (Java), Algorithms, Software Engineering, Web Development, Computer Systems, Linear Algebra, Probability, Discrete Math</span>
+          </li>
+
           <li className='item'>
             <h2>Awards</h2>
             <span> Eagle Scout, Black Belt, Boston University Dean’s List </span>
