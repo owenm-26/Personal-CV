@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Personal-CV/static/css/main.add9e42f.css",
-    "main.js": "/Personal-CV/static/js/main.39a1e188.js",
+    "main.css": "/Personal-CV/static/css/main.d899f1f5.css",
+    "main.js": "/Personal-CV/static/js/main.2feed454.js",
     "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
     "static/media/currency-converter.png": "/Personal-CV/static/media/currency-converter.7adbc22358d013cf736a.png",
     "static/media/atscale.png": "/Personal-CV/static/media/atscale.9cfef38f429aa55a3039.png",
@@ -10,12 +10,12 @@
     "static/media/humphrey-fellows.png": "/Personal-CV/static/media/humphrey-fellows.8b2775b10a57865cd4f2.png",
     "static/media/todo.png": "/Personal-CV/static/media/todo.23851391634f97d96954.png",
     "index.html": "/Personal-CV/index.html",
-    "main.add9e42f.css.map": "/Personal-CV/static/css/main.add9e42f.css.map",
-    "main.39a1e188.js.map": "/Personal-CV/static/js/main.39a1e188.js.map",
+    "main.d899f1f5.css.map": "/Personal-CV/static/css/main.d899f1f5.css.map",
+    "main.2feed454.js.map": "/Personal-CV/static/js/main.2feed454.js.map",
     "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.add9e42f.css",
-    "static/js/main.39a1e188.js"
+    "static/css/main.d899f1f5.css",
+    "static/js/main.2feed454.js"
   ]
 }
