@@ -9,6 +9,8 @@ Check it out: https://owenm-26.github.io/Personal-CV/
 2. Projects
 3. Experiences
 
+## Resources
+Icon source: https://marwin1991.github.io/profile-technology-icons/
+
 ## Changes for Future
-- Connect a backend so that projectList is stored in a database and can be easily added
 - Style more to make more personal
