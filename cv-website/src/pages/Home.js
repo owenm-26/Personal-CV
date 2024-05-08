@@ -22,9 +22,9 @@ function Home() {
          {/* <h1>Skills and Awards</h1> */}
          <ol className='list'>
           <li className='item'>
-            <h2>Programming Languages</h2>
+            <h2>Languages and Frameworks</h2>
             <LanguagesList/>
-            <span> Python, Java, JavaScript, React.js, Next.js, Git, SQL, PySpark, C, Vim, Assembly,  Node.js, HTML, CSS </span>
+            <span> Python, Java, JavaScript, React.js, Next.js, Git, Express, SQL, PySpark, C, Vim, Assembly,  Node.js, HTML, CSS </span>
           </li>
 
           <li className='item'>
