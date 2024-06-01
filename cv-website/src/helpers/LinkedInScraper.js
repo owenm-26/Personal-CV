@@ -1,9 +1,6 @@
 const puppeteer = require('puppeteer')
 const dotenv = require('dotenv')
-dotenv.config()
-
-const username = process.env.LINKEDIN_USER
-const pass = process.env.LINKEDIN_PASS
+dotenv.config();
 
 async function scrapeProfile(profile){
     if(!username || !pass){
