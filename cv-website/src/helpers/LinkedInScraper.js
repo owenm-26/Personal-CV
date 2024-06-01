@@ -2,47 +2,51 @@ const puppeteer = require('puppeteer')
 const dotenv = require('dotenv')
 dotenv.config();
 
-async function scrapeProfile(profile){
-    if(!username || !pass){
-        console.error('Need to fix .env with username and password. See .env.example')
-    }
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
+const username = process.env.LINKEDIN_USER;
+const pass = process.env.LINKEDIN_PASS;
 
-    //login first
-    await page.goto('https://www.linkedin.com/login', { waitUntil: 'networkidle2' });
-    await page.type('#username', username);  
-    await page.type('#password', pass);           
-    await page.click('button[type="submit"]');
+async function scrapeProfile(profile, elements, titleElement) {
+  if (!username || !pass) {
+    console.error(
+      "Need to fix .env with username and password. See .env.example"
+    );
+  }
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
 
-    console.log(`logged in with ${username} and ${pass}`)
+  //login first
+  await page.goto("https://www.linkedin.com/login", {
+    waitUntil: "networkidle2",
+  });
+  await page.type("#username", username);
+  await page.type("#password", pass);
+  await page.click('button[type="submit"]');
 
-    // Wait for navigation after login
-    // await page.waitForNavigation({ waitUntil: 'networkidle2' });
+  console.log(`logged in with ${username} and ${pass}`);
 
-    
-    await page.goto(`https://www.linkedin.com/in/${profile}`)
-    console.log('on profile page')
-    
+  await page.goto(`https://www.linkedin.com/in/${profile}`);
+  console.log("on profile page");
 
-    browser.close();
-}
+  //get experiences
+  const allExperiences = await page.evaluate(
+    (allElementsSelector, titleSelector) => {
+      const experiences = document.querySelectorAll(allElementsSelector);
 
-const blogScraper = async(url, elements, titleElement) =>{
-    const browser = await puppeteer.launch()
-    const page = await browser.newPage()
-    await page.goto(url)
+      return Array.from(experiences)
+        .slice(0, 3)
+        .map((experience) => {
+          const title = experience.querySelector(titleSelector).innerText;
+          const url = experience.querySelector("a").href;
+          return { title, url };
+        });
+    },
+    elements,
+    titleElement
+  );
+  console.log(allExperiences);
 
-    const allArticles = await page.evaluate((allElementsSelector, titleSelector) => {
-        const articles = document.querySelectorAll(allElementsSelector)
+  browser.close();
+};
 
-        return Array.from(articles).slice(0,3).map((article) =>{
-            const title=article.querySelector(titleSelector).innerText;
-            const url = article.querySelector('a').href
-            return {title, url}
-        });}, elements, titleElement)
-        console.log(allArticles)
-}
-blogScraper('https://www.joshwcomeau.com/', 'article', 'h3')
 
-// scrapeProfile('owen-mariani');
+scrapeProfile("owen-mariani", "", "");
