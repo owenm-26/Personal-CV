@@ -6,8 +6,15 @@ import CSVCalculator from '../assets/csv-calculator.png'
 import AtScale from '../assets/atscale.png'
 import HumphreyFellows from '../assets/humphrey-fellows.png'
 import BUCSC from "../assets/bu-csc.png";
+import BPI from "../assets/BPI.png";
 
 export const ProjectList = [
+  {
+    name: "Boston Police Index",
+    image: BPI,
+    skills: "Next.js, PostgreSQL, GraphQL, Netlify, Git",
+    url: "https://github.com/bos-police-index/bp-index-public",
+  },
   {
     name: "BU Community Service Department Portal",
     image: BUCSC,

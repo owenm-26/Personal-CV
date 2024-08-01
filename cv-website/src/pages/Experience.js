@@ -14,7 +14,7 @@ function Experience() {
         {/* Schooling */}
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2022 - present "
+          date="2022 - 2025 "
           iconStyle={{ background: "#3e497a", color: "#ffffff" }}
           icon={<SchoolIcon />}
         >
@@ -44,7 +44,7 @@ function Experience() {
         {/* Club work */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="January 2023 - Current"
+          date="September 2023 - February 2024"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -62,7 +62,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="January 2023 - Current"
+          date="January 2023 - Present"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -77,7 +77,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="January 2023 - Current"
+          date="May 2023 - May 2024"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -96,7 +96,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="January 2023 - Current"
+          date="December 2023 - Present"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -134,7 +134,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2024 - July 2024"
+          date="May 2024 - Present"
           iconStyle={{ background: "#e9d35b", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
