@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Personal-CV/static/css/main.94bb6e3c.css",
-    "main.js": "/Personal-CV/static/js/main.2c078817.js",
+    "main.js": "/Personal-CV/static/js/main.eebc7c24.js",
     "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
     "static/media/currency-converter.png": "/Personal-CV/static/media/currency-converter.7adbc22358d013cf736a.png",
+    "static/media/BPI.png": "/Personal-CV/static/media/BPI.5860e775d3911bfa175a.png",
     "static/media/atscale.png": "/Personal-CV/static/media/atscale.9cfef38f429aa55a3039.png",
     "static/media/csv-calculator.png": "/Personal-CV/static/media/csv-calculator.68a90e5563316a9a7e61.png",
     "static/media/bu-csc.png": "/Personal-CV/static/media/bu-csc.06f66cefcc5763c08bfc.png",
@@ -12,11 +13,11 @@
     "static/media/todo.png": "/Personal-CV/static/media/todo.23851391634f97d96954.png",
     "index.html": "/Personal-CV/index.html",
     "main.94bb6e3c.css.map": "/Personal-CV/static/css/main.94bb6e3c.css.map",
-    "main.2c078817.js.map": "/Personal-CV/static/js/main.2c078817.js.map",
+    "main.eebc7c24.js.map": "/Personal-CV/static/js/main.eebc7c24.js.map",
     "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94bb6e3c.css",
-    "static/js/main.2c078817.js"
+    "static/js/main.eebc7c24.js"
   ]
 }
