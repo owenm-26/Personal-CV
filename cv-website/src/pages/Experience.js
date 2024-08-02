@@ -21,7 +21,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             Boston University - Boston, MA
           </h3>
-          <p>Bachelor's Degree in Computer Science, Minor in Data Science</p>
+          <p>Bachelor's Degree in Computer Science</p>
         </VerticalTimelineElement>
 
         {/* Job Experience */}
