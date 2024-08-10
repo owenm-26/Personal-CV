@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-CV/static/css/main.94bb6e3c.css",
-    "main.js": "/Personal-CV/static/js/main.3e2da91a.js",
+    "main.js": "/Personal-CV/static/js/main.eb8155c4.js",
     "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
     "static/media/currency-converter.png": "/Personal-CV/static/media/currency-converter.7adbc22358d013cf736a.png",
     "static/media/BPI.png": "/Personal-CV/static/media/BPI.5860e775d3911bfa175a.png",
@@ -10,14 +10,15 @@
     "static/media/bu-csc.png": "/Personal-CV/static/media/bu-csc.06f66cefcc5763c08bfc.png",
     "static/media/tictactoe.png": "/Personal-CV/static/media/tictactoe.81c886ae696f6fd6dc21.png",
     "static/media/humphrey-fellows.png": "/Personal-CV/static/media/humphrey-fellows.8b2775b10a57865cd4f2.png",
+    "static/media/course_genie.webp": "/Personal-CV/static/media/course_genie.bcdef1393af9a1c0a14c.webp",
     "static/media/todo.png": "/Personal-CV/static/media/todo.23851391634f97d96954.png",
     "index.html": "/Personal-CV/index.html",
     "main.94bb6e3c.css.map": "/Personal-CV/static/css/main.94bb6e3c.css.map",
-    "main.3e2da91a.js.map": "/Personal-CV/static/js/main.3e2da91a.js.map",
+    "main.eb8155c4.js.map": "/Personal-CV/static/js/main.eb8155c4.js.map",
     "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94bb6e3c.css",
-    "static/js/main.3e2da91a.js"
+    "static/js/main.eb8155c4.js"
   ]
 }
