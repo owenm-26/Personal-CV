@@ -35,8 +35,8 @@ function Home() {
             <LanguagesList />
             <span>
               {" "}
-              Python, Java, JavaScript, React.js, Next.js, Git, Express, SQL,
-              PySpark, C, Vim, Assembly, Node.js, HTML, CSS{" "}
+              Python, Java, JavaScript, React.js, Next.js, Flask, Git, Express,
+              SQL, PySpark, C, Vim, Assembly, Node.js, HTML, CSS{" "}
             </span>
           </li>
 
@@ -46,9 +46,9 @@ function Home() {
             <span>
               {" "}
               Kubernetes, Docker, Prisma, PostgreSQL, GraphQL, Podman,
-              JupyterLab, Databricks, Snowflake, JIRA, Github, Google Bigquery,
-              Firebase, MongoDB, Figma, Unity, VSCode, IntelliJ, Confluence,
-              Google Suite{" "}
+              JupyterLab, Databricks, Snowflake, JIRA, Github, OR-Tools,
+              Bigquery, Firebase, MongoDB, Figma, Unity, VSCode, IntelliJ,
+              Confluence, Google Suite{" "}
             </span>
           </li>
 
@@ -58,7 +58,7 @@ function Home() {
               {" "}
               Databases, Application Architecture, Authentication &
               Authorization, Environment Secrets, UI Libraries, HTTP Protocols,
-              Image Encoding, Tree Traversals, Sorting
+              Image Encoding, Tree Traversals, Sorting, Solvers
             </span>
           </li>
 
@@ -67,7 +67,7 @@ function Home() {
             <span>
               Python, Data Structures (Java), Algorithms, Software Engineering,
               Web Development, Computer Systems, Linear Algebra, Probability,
-              Discrete Math
+              Discrete Math, Cyber Security, Distributed Systems
             </span>
           </li>
 

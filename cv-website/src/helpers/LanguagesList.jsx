@@ -36,6 +36,11 @@ function LanguagesList() {
         title="Node.js"
       />
       <img
+        src="https://skillicons.dev/icons?i=flask"
+        alt="Flask"
+        title="Flask"
+      />
+      <img
         src="https://user-images.githubusercontent.com/25181517/183859966-a3462d8d-1bc7-4880-b353-e2cbed900ed6.png"
         alt="Express"
         title="Express"

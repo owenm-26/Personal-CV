@@ -7,8 +7,15 @@ import AtScale from '../assets/atscale.png'
 import HumphreyFellows from '../assets/humphrey-fellows.png'
 import BUCSC from "../assets/bu-csc.png";
 import BPI from "../assets/BPI.png";
+import CourseGenie from "../assets/course_genie.webp";
 
 export const ProjectList = [
+  {
+    name: "Course Genie",
+    image: CourseGenie,
+    skills: "Flask, Web Scraping, OR-Tools Solver, Angular",
+    url: "https://github.com/owenm-26/course-genie",
+  },
   {
     name: "Boston Police Index",
     image: BPI,

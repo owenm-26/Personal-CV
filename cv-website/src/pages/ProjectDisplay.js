@@ -10,7 +10,11 @@ function ProjectDisplay() {
     return (
       <div className="project">
         <h1>{project.name}</h1>
-        <img src={project.image} alt="project display" />
+        <img
+          src={project.image}
+          alt="project display"
+          style={{ maxHeight: "50vh", width: "auto" }}
+        />
         <p>
           <b>Skills:</b> {project.skills}
         </p>
