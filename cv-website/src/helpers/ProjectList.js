@@ -8,6 +8,7 @@ import HumphreyFellows from '../assets/humphrey-fellows.png'
 import BUCSC from "../assets/bu-csc.png";
 import BPI from "../assets/BPI.png";
 import CourseGenie from "../assets/course_genie.webp";
+import Poker from "../assets/poker.jpg";
 
 export const ProjectList = [
   {
@@ -15,6 +16,12 @@ export const ProjectList = [
     image: CourseGenie,
     skills: "Flask, Web Scraping, OR-Tools Solver, Angular",
     url: "https://github.com/owenm-26/course-genie",
+  },
+  {
+    name: "Poker Tutor",
+    image: Poker,
+    skills: "Python, Object Oriented Programming",
+    url: "https://github.com/owenm-26/poker",
   },
   {
     name: "Boston Police Index",

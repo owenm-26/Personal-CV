@@ -66,7 +66,9 @@ function Experience() {
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Program Manager</h3>
+          <h3 className="vertical-timeline-element-title">
+            Program Manager of Finance
+          </h3>
           <h4 className="vertical-timeline-element-subtitle">BU Spark!</h4>
           <p>
             Managed $35k+ budget and assisted discussion on distributing to
@@ -147,6 +149,23 @@ function Experience() {
             Next.js + PostgreSQL to serve 17k students, automating service
             applications, event publishing, and hour logging while aggregating
             data for admins.
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2024 - Present"
+          iconStyle={{ background: "#D64550", color: "#ffffff" }}
+          icon={<GroupsIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Program Manager of Technology
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">BU Spark!</h4>
+          <p>
+            Led creation of workshops covering wide collection of technologies
+            in Computer Science, from APIs and Machine Learning to
+            Containerization and Flutter
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

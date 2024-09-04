@@ -45,7 +45,7 @@ function Home() {
             <ToolsList />
             <span>
               {" "}
-              Kubernetes, Docker, Prisma, PostgreSQL, GraphQL, Podman,
+              Kubernetes, Docker, Prisma, PostgreSQL, GraphQL, Podman, Selenium,
               JupyterLab, Databricks, Snowflake, JIRA, Github, OR-Tools,
               Bigquery, Firebase, MongoDB, Figma, Unity, VSCode, IntelliJ,
               Confluence, Google Suite{" "}
@@ -56,9 +56,9 @@ function Home() {
             <h2>Topics</h2>
             <span>
               {" "}
-              Databases, Application Architecture, Authentication &
-              Authorization, Environment Secrets, UI Libraries, HTTP Protocols,
-              Image Encoding, Tree Traversals, Sorting, Solvers
+              Algorithms, Databases, Cybersecurity, Application Architecture,
+              Authentication & Authorization, Environment Secrets, UI Libraries,
+              HTTP Protocols, Image Encoding, Tree Traversals, Sorting, Solvers
             </span>
           </li>
 
@@ -67,7 +67,7 @@ function Home() {
             <span>
               Python, Data Structures (Java), Algorithms, Software Engineering,
               Web Development, Computer Systems, Linear Algebra, Probability,
-              Discrete Math, Cyber Security, Distributed Systems
+              Discrete Math, Cybersecurity, Distributed Systems
             </span>
           </li>
 
