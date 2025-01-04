@@ -62,7 +62,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="January 2023 - Present"
+          date="January 2023 - December 2024"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -98,7 +98,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="December 2023 - Present"
+          date="December 2023 - Decemeber 2024"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -122,7 +122,7 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Contract Web Developer
+            Software Engineer Intern
           </h3>
           <h4 className="vertical-timeline-element-subtitle">
             Hubert H. Humphrey Fellowship
@@ -131,6 +131,42 @@ function Experience() {
             Designed and developed financial tracking web app complete with user
             authentication and interactive dashboards to serve as capstone
             project for 10 month international fellowship
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2024 - December 2024"
+          iconStyle={{ background: "#D64550", color: "#ffffff" }}
+          icon={<GroupsIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Program Manager of Technology
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">BU Spark!</h4>
+          <p>
+            Led creation of workshops covering wide collection of technologies
+            in Computer Science, from APIs and Machine Learning to
+            Containerization and Flutter
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2023 - Present"
+          iconStyle={{ background: "#D64550", color: "#ffffff" }}
+          icon={<GroupsIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Director of Impact - Hack4Impact
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Boston University
+          </h4>
+          <p>
+          Managed 4 internship teams simultaneously, providing technical advice and ensuring non-profit clients' deadlines are met
+          and doubled the size of the program and completely redesigned team structure and timelines to parallel industry and ensure 
+          best practices
           </p>
         </VerticalTimelineElement>
 
@@ -154,18 +190,18 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2024 - Present"
-          iconStyle={{ background: "#D64550", color: "#ffffff" }}
-          icon={<GroupsIcon />}
+          date="December 2024 - Present"
+          iconStyle={{ background: "#e9d35b", color: "#ffffff" }}
+          icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Program Manager of Technology
+            Cybersecurity Teacher Assistant
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">BU Spark!</h4>
+          <h4 className="vertical-timeline-element-subtitle">Boston University</h4>
           <p>
-            Led creation of workshops covering wide collection of technologies
-            in Computer Science, from APIs and Machine Learning to
-            Containerization and Flutter
+            Solely responsible for teaching class emerging technologies in Cybersecurity 
+            and implementing infrastructure such as Containers in the Cloud and 
+            doing so in a cost effective way 
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

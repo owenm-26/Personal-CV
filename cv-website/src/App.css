@@ -17,3 +17,14 @@ body {
 .push{
   margin-top: 120px;
 }
+
+.pdf-preview{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h2{
+  font-size: 52.5px; 
+ }
