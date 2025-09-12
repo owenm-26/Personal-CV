@@ -14,8 +14,7 @@ function Home() {
         <h2>Owen Mariani</h2>
         <div className="prompt">
           <p>
-            A senior at Boston University passionate about Software Engineering
-            and learning.
+            A senior at Boston University who likes experimenting with emerging technologies.
           </p>
           <a href="mailto: mariani.owen@gmail.com">
             <EmailIcon />

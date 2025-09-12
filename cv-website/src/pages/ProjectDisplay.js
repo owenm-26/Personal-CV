@@ -15,9 +15,18 @@ function ProjectDisplay() {
           alt="project display"
           style={{ maxHeight: "50vh", width: "auto" }}
         />
-        <p>
-          <b>Skills:</b> {project.skills}
-        </p>
+        <p style={{marginBottom: "0px"}}>
+  <b>Skills:</b> {project.skills}
+</p>
+<p style={{marginTop: "0px"}}>
+  {project.deployed_url !== "" && (
+    <>
+      {" "}
+      <b>Deployed Url:</b> <a href={project.deployed_url}>{project.deployed_url}</a>
+    </>
+  )}
+</p>
+
         <div style={{ cursor: "pointer" }}>
           <a href={project.url}>
             <GitHubIcon />

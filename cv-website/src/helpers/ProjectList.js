@@ -12,68 +12,87 @@ import Poker from "../assets/poker.jpg";
 import HealthMate from "../assets/HealthMateLogo.png"
 import Springbreakr from "../assets/springbreakr.png"
 import EasyPT from "../assets/easyPT.png"
+import GitHubRecruiter from "../assets/githubRecruiter.png"
 
 export const ProjectList = [
-  {
-    name: "HealthMate",
-    image: HealthMate,
-    skills: "Swift, SwiftUI, XCode, CoreData, Apple HealthKit",
-    url: "https://github.com/owenm-26/HealthMate"
-  },
+ 
   {
     name: "Boston Police Index",
     image: BPI,
     skills: "Next.js, PostgreSQL, GraphQL, Netlify, Git",
     url: "https://github.com/bos-police-index/bp-index-public",
+    deployed_url: "https://dev-bpi.netlify.app/"
   },
   {
     name: "BU Community Service Department Portal",
     image: BUCSC,
     skills: "Next.js, PostgreSQL, Prisma, Docker, Netlify, Git",
     url: "https://github.com/BU-Spark/se-bu-csc-hours-tracking",
+    deployed_url: "https://bu-csc-dev.netlify.app/"
   },
   {
-    name: "Course Genie",
-    image: CourseGenie,
-    skills: "Flask, Web Scraping, OR-Tools Solver, Angular",
-    url: "https://github.com/owenm-26/course-genie",
+    name: "GitHub Recruiter",
+    image: GitHubRecruiter,
+    skills: "Python, FastAPI, Next.js",
+    url: "https://github.com/owenm-26/github-recruiter",
+    deployed_url: "https://github-recruiter.vercel.app/"
   },
   {
     name: "Easy PT",
     image: EasyPT,
     skills: "OpenCV, Next.js, Python, Websockets",
     url: "https://github.com/owenm-26/Easy-PT",
+    deployed_url: ""
   },
   {
     name: "Springbreakr",
     image: Springbreakr,
     skills: "Cloudflare, Next.js, Python",
     url: "https://github.com/owenm-26/springbreakr",
+    deployed_url: ""
   },
+  {
+    name: "Course Genie",
+    image: CourseGenie,
+    skills: "Flask, Web Scraping, OR-Tools Solver, Angular",
+    url: "https://github.com/owenm-26/course-genie",
+    deployed_url: ""
+  },
+  
   {
     name: "Poker Tutor",
     image: Poker,
     skills: "Python, Object Oriented Programming",
     url: "https://github.com/owenm-26/poker",
+    deployed_url: ""
   },
   {
     name: "BusinessBuddy",
     image: HumphreyFellows,
     skills: "React.js, MongoDB, Express, Excel",
     url: "https://github.com/owenm-26/humphrey-fellowship-capstone",
+    deployed_url: ""
   },
-  {
-    name: "AtScale Summer 2023",
-    image: AtScale,
-    skills: "Python, PySpark, Snowflake, Databricks",
-    url: "https://github.com/owenm-26/AtScale-Internship-Summer-2023",
-  },
-  {
-    name: "CSV Calculator",
-    image: CSVCalculator,
-    skills: "Python, command line",
-    url: "https://github.com/owenm-26/csv-calculator",
-  },
+  // {
+  //   name: "Databricks vs Snowflake: 2023",
+  //   image: AtScale,
+  //   skills: "Python, PySpark, Snowflake, Databricks",
+  //   url: "https://github.com/owenm-26/AtScale-Internship-Summer-2023",
+  //   deployed_url: ""
+  // },
+
+   // {
+  //   name: "HealthMate",
+  //   image: HealthMate,
+  //   skills: "Swift, SwiftUI, XCode, CoreData, Apple HealthKit",
+  //   url: "https://github.com/owenm-26/HealthMate"
+  // },
+  // {
+  //   name: "CSV Calculator",
+  //   image: CSVCalculator,
+  //   skills: "Python, command line",
+  //   url: "https://github.com/owenm-26/csv-calculator",
+  // },
   // {
   //   name: "To-do App",
   //   image: ToDoImage,
