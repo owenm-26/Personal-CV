@@ -38,13 +38,16 @@ function Home() {
           src={`${process.env.PUBLIC_URL}/resume.pdf`}
           title="Resume"
           width="75%"
-          height="500px"
+          height="1000px"
           style={{ border: "1px solid #000" }}
         ></iframe>
       </div>
+      </div>
 
-      <div className="skills">
-        {/* <h1>Skills and Awards</h1> */}
+      );
+
+      {/* <div className="skills">
+        {/* <h1>Skills and Awards</h1> 
         <ol className="list">
 
           
@@ -98,8 +101,10 @@ function Home() {
           </li>
         </ol>
       </div>
-    </div>
-  );
+    </div> 
+    */}
+    
+  
 }
 
 export default Home

@@ -153,7 +153,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2023 - Present"
+          date="May 2023 - August 2025"
           iconStyle={{ background: "#D64550", color: "#ffffff" }}
           icon={<GroupsIcon />}
         >
@@ -172,7 +172,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2024 - Present"
+          date="May 2024 - May 2025"
           iconStyle={{ background: "#e9d35b", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
@@ -190,7 +190,7 @@ function Experience() {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="December 2024 - Present"
+          date="December 2024 - May 2025"
           iconStyle={{ background: "#e9d35b", color: "#ffffff" }}
           icon={<WorkIcon />}
         >
@@ -204,6 +204,40 @@ function Experience() {
             doing so in a cost effective way 
           </p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="June 2025 - August 2025"
+          iconStyle={{ background: "#e9d35b", color: "#ffffff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineer Intern
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Addepar
+          </h4>
+          <p>
+          Developed and Deployed robust RAG Asset Classifier on Databricks leveraging Python, PySpark, and SQL increasing Data Quality across the entire company, and increasing value & marketability of R&D’s new data products          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2023 - August 2025"
+          iconStyle={{ background: "#D64550", color: "#ffffff" }}
+          icon={<GroupsIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Advisor- Hack4Impact
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Boston University
+          </h4>
+          <p>
+          Ensuring smooth transition of duties while organizing the weekly member development workshops.
+          </p>
+        </VerticalTimelineElement>
+
       </VerticalTimeline>
     </div>
   );
