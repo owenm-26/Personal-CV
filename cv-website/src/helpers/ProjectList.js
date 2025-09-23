@@ -13,6 +13,8 @@ import HealthMate from "../assets/HealthMateLogo.png"
 import Springbreakr from "../assets/springbreakr.png"
 import EasyPT from "../assets/easyPT.png"
 import GitHubRecruiter from "../assets/githubRecruiter.png"
+import ClientServer from "../assets/client_server.png"
+import DEBS from "../assets/debs.png"
 
 export const ProjectList = [
  
@@ -31,11 +33,32 @@ export const ProjectList = [
     deployed_url: "https://bu-csc-dev.netlify.app/"
   },
   {
+    name: "DEBS International Grand Challenge 2025",
+    image: DEBS,
+    skills: "Java, Flink, Kubernetes, Bash",
+    url: "https://github.com/Prathmesh-S/Defect-Detection",
+    deployed_url: "https://dl.acm.org/doi/10.1145/3701717.3735575"
+  },
+  {
     name: "GitHub Recruiter",
     image: GitHubRecruiter,
     skills: "Python, FastAPI, Next.js",
     url: "https://github.com/owenm-26/github-recruiter",
     deployed_url: "https://github-recruiter.vercel.app/"
+  },
+  {
+    name: "Client-Server - Java",
+    image: ClientServer,
+    skills: "Java, Maven, Websockets",
+    url: "https://github.com/owenm-26/client-server-error-control",
+    deployed_url: ""
+  },
+  {
+    name: "Client-Server - C",
+    image: ClientServer,
+    skills: "C, Websockets",
+    url: "https://github.com/owenm-26/client-server-c",
+    deployed_url: ""
   },
   {
     name: "Easy PT",
