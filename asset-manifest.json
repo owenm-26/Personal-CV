@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-CV/static/css/main.f2cc2e6d.css",
-    "main.js": "/Personal-CV/static/js/main.e00710ac.js",
+    "main.js": "/Personal-CV/static/js/main.c041e4f6.js",
     "static/js/787.a5dc3534.chunk.js": "/Personal-CV/static/js/787.a5dc3534.chunk.js",
     "static/media/currency-converter.png": "/Personal-CV/static/media/currency-converter.7adbc22358d013cf736a.png",
     "static/media/BPI.png": "/Personal-CV/static/media/BPI.5860e775d3911bfa175a.png",
@@ -20,11 +20,11 @@
     "static/media/HealthMateLogo.png": "/Personal-CV/static/media/HealthMateLogo.006d5944219113b9f840.png",
     "index.html": "/Personal-CV/index.html",
     "main.f2cc2e6d.css.map": "/Personal-CV/static/css/main.f2cc2e6d.css.map",
-    "main.e00710ac.js.map": "/Personal-CV/static/js/main.e00710ac.js.map",
+    "main.c041e4f6.js.map": "/Personal-CV/static/js/main.c041e4f6.js.map",
     "787.a5dc3534.chunk.js.map": "/Personal-CV/static/js/787.a5dc3534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2cc2e6d.css",
-    "static/js/main.e00710ac.js"
+    "static/js/main.c041e4f6.js"
   ]
 }
